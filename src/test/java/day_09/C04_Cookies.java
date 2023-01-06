@@ -13,6 +13,8 @@ public class C04_Cookies extends TestBase {
         Set<Cookie> allCookies = driver.manage().getCookies(); // toplam cerez sayisi
         int cookieSayisi = allCookies.size();
         System.out.println("Sayfada "+cookieSayisi+ " adet cookie var");
+
+
 //        3. Bir Cookie yi ismiyle bul
 //        tum cokkie leri yazdiralim
 //        allCookies.stream().forEach(t -> System.out.println(t.getName()));
@@ -21,6 +23,8 @@ public class C04_Cookies extends TestBase {
             System.out.println("COOKIE ISIMLERI : " + eachCookie.getName());
         }
         System.out.println("COKKIEYI ISMIYLE CAGIRIYORUM : "+driver.manage().getCookieNamed("i18n-prefs"));
+
+
 //        4. Yeni bir cookie ekle
         Cookie favoriCookiem= new Cookie("cikolatam","antem-fistikli-cikolata");
         driver.manage().addCookie(favoriCookiem);
@@ -31,10 +35,14 @@ public class C04_Cookies extends TestBase {
 
 //        5. Bir Cookie yi ismiyle sil
         driver.manage().deleteCookieNamed("session-id");
+
+
 //        6. Tum cookie leri sil
         driver.manage().deleteAllCookies();
         waitFor(5);
         System.out.println("TUM COOKIES LERI SILDIM. YENI COOKIE SAYISI : "+driver.manage().getCookies().size());
+
+
 
     }
 }

@@ -31,6 +31,8 @@ public class C02_WindowHandle3 extends TestBase {
 //        DRIVER NERDE? TECHPRODA
         Assert.assertTrue(driver.getTitle().contains("Techpro Education"));
         waitFor(3);
+
+
     }
 
 
