@@ -4,12 +4,12 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
+import utilities.testBase;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class P05 extends TestBase {
+public class P05 extends testBase {
     @Test
     public void test01() {
 

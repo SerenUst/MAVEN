@@ -1,9 +1,9 @@
 package day_09;
 import org.junit.Test;
 import org.openqa.selenium.Cookie;
-import utilities.TestBase;
+import utilities.testBase;
 import java.util.Set;
-public class C04_Cookies extends TestBase {
+public class C04_Cookies extends testBase {
     @Test
     public void handleCookiesTest() {
 //        Amazona git

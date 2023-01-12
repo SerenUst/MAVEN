@@ -3,14 +3,14 @@ package Practice;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
+import utilities.testBase;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 //3.1.23
-public class p10 extends TestBase {
+public class p10 extends testBase {
 
         /*
       // https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/ sitesine gidin

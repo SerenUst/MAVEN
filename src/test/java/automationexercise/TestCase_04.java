@@ -1,13 +1,12 @@
 package automationexercise;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
+import utilities.testBase;
 
-public class TestCase_04 extends TestBase {
+public class TestCase_04 extends testBase {
 
     @Test
     public void case04Test(){

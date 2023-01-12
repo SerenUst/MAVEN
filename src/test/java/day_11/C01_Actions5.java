@@ -1,12 +1,11 @@
 package day_11;
-import com.beust.ah.A;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import utilities.TestBase;
-public class C01_Actions5 extends TestBase {
+import utilities.testBase;
+public class C01_Actions5 extends testBase {
     @Test
     public void keyboardActionsTest(){
 //

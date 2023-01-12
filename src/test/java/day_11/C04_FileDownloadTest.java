@@ -2,10 +2,10 @@ package day_11;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.TestBase;
+import utilities.testBase;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-public class C04_FileDownloadTest extends TestBase {
+public class C04_FileDownloadTest extends testBase {
     @Test
     public void fileDownloadTest(){
 //        https://testcenter.techproeducation.com/index.php?page=file-download   adresine gidelim.

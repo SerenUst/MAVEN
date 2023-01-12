@@ -3,9 +3,9 @@ package day_07;
 
 import org.junit.Assert;
 import org.junit.Test;
-import utilities.TestBase;
+import utilities.testBase;
 
-public class C01_TestBaseDemo extends TestBase {
+public class C01_TestBaseDemo extends testBase {
         /*
         UTILITIES:
         - Tekrar tekrar kullanacağımız, classları koyduğumuz package nin adıdır.

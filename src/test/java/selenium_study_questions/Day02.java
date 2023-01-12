@@ -3,15 +3,12 @@ package selenium_study_questions;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import utilities.TestBase;
+import utilities.testBase;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.stream.Collectors;
 
-public class Day02 extends TestBase {
+public class Day02 extends testBase {
 
     @Test
     public void test01(){

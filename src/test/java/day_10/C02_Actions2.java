@@ -4,8 +4,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import utilities.TestBase;
-public class C02_Actions2 extends TestBase {
+import utilities.testBase;
+public class C02_Actions2 extends testBase {
     @Test
     public void hoverOverTest(){
 //        Amazon home sayfasina git

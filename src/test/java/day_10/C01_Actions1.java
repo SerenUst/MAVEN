@@ -4,8 +4,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import utilities.TestBase;
-public class C01_Actions1 extends TestBase {
+import utilities.testBase;
+public class C01_Actions1 extends testBase {
     @Test
     public void rightClick(){
 //    https://the-internet.herokuapp.com/context_menu  sitesine gidin

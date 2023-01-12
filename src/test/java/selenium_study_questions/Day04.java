@@ -3,11 +3,9 @@ package selenium_study_questions;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.TestBase;
+import utilities.testBase;
 
-import java.sql.Driver;
-
-public class Day04 extends TestBase {
+public class Day04 extends testBase {
 static String urun;
 
 @Test

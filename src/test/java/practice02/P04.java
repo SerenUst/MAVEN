@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.WindowType;
-import utilities.TestBase;
-public class P04 extends TestBase {
+import utilities.testBase;
+public class P04 extends testBase {
     @Test
     public void test01() throws InterruptedException {
         //- https://html.com/tags/iframe/ adresine gidiniz

@@ -3,13 +3,10 @@ package Practice;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import utilities.TestBase;
+import utilities.testBase;
 
-import java.util.List;
-
-public class P09 extends TestBase {
+public class P09 extends testBase {
 
 @Test
     public void test() throws InterruptedException {
