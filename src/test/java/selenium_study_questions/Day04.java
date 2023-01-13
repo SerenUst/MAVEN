@@ -3,9 +3,9 @@ package selenium_study_questions;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class Day04 extends testBase {
+public class Day04 extends TestBase {
 static String urun;
 
 @Test

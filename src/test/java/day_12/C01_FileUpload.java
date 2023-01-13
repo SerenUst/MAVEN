@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class C01_FileUpload extends testBase {
+public class C01_FileUpload extends TestBase {
 
     //    Tests packagenin altina bir class oluşturun : C05_UploadFile
 //    https://the-internet.herokuapp.com/upload adresine gidelim

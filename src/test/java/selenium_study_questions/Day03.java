@@ -3,9 +3,9 @@ package selenium_study_questions;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class Day03 extends testBase {
+public class Day03 extends TestBase {
 
     @Test
     public void test01() throws InterruptedException {

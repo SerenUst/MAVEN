@@ -3,9 +3,9 @@ package day_09;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class C01_WindowHandle2 extends testBase {
+public class C01_WindowHandle2 extends TestBase {
 
     @Test
     public void C01_WindowHandle2() {

@@ -4,11 +4,11 @@ package day_08;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
+import utilities.TestBase;
 
 import java.util.Set;
 
-public class C01_WindowHandle1 extends testBase {
+public class C01_WindowHandle1 extends TestBase {
 
     //USER STORY
     //Tests package'inda yeni bir class olusturun: WindowHandle

@@ -3,8 +3,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import utilities.testBase;
-public class C04_Actions4 extends testBase {
+import utilities.TestBase;
+public class C04_Actions4 extends TestBase {
     @Test
     public void dragAndDropTest(){
 //        EN FAZLA SURUKLEMEK ICIN KULLANILAN METHOD BUDUR

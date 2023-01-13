@@ -4,9 +4,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class TestCase_04 extends testBase {
+public class TestCase_04 extends TestBase {
 
     @Test
     public void case04Test(){

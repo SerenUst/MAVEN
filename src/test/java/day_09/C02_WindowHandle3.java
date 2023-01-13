@@ -4,8 +4,8 @@ package day_09;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WindowType;
-import utilities.testBase;
-public class C02_WindowHandle3 extends testBase {
+import utilities.TestBase;
+public class C02_WindowHandle3 extends TestBase {
     @Test
     public void newWindowHandleTest(){
 //        1. TechPro education sayfasinin titleinin "Techpro Education" metnini icerdigini test edin

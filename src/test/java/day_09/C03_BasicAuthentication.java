@@ -2,8 +2,8 @@ package day_09;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
-public class C03_BasicAuthentication extends testBase {
+import utilities.TestBase;
+public class C03_BasicAuthentication extends TestBase {
     @Test
     public void basicAuthenticationTest() throws InterruptedException {
 //        https://the-internet.herokuapp.com/basic_auth sayfasina gidin

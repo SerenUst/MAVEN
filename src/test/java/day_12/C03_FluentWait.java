@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import utilities.testBase;
+import utilities.TestBase;
 
 import java.time.Duration;
 
-public class C03_FluentWait extends testBase {
+public class C03_FluentWait extends TestBase {
 
     @Test
     public void fluentWaitTest(){

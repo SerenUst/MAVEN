@@ -2,8 +2,8 @@ package day_10;
 import org.junit.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import utilities.testBase;
-public class C03_Actions3 extends testBase {
+import utilities.TestBase;
+public class C03_Actions3 extends TestBase {
     @Test
     public void scrollUpDown(){
 //        https://techproeducation.com a git

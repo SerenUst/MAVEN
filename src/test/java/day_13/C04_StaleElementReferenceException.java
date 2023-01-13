@@ -8,42 +8,40 @@ import utilities.TestBase;
 
 public class C04_StaleElementReferenceException extends TestBase {
 
-    //Stale Element = eski, kullanılamaz durumda, kullanım artık elverişli degil
-    //-Sayfayi yenilediğinizde (refresh())
-    //-Sayfada ileri geri gittimizde
-    //COZUM:
-    //Elementi tekrar bulmak
-
-
     @Test
-    public void StaleElementReferenceExceptionTest(){
+    public void staleElementReferenceExceptionTest1() {
         driver.get("https://www.techproeducation.com");
-        waitFor(3);
+        waitFor(5);
 //        LMS LOGIN linkine tikla ve o sayfanin URL inin lms icerdigini test et
         WebElement lmsLoginLink = driver.findElement(By.linkText("LMS LOGIN"));
-        waitFor(3);
+        waitFor(5);
         lmsLoginLink.click();//LMS e git
         Assert.assertTrue(driver.getCurrentUrl().contains("lms"));//URl in lms kelimesini icerdigini test et
         waitFor(5);
-
 //        Tekrar ana sayfaya gel ve LMS LOGIN sayfasina tekrar
         driver.navigate().back();//tekrar ana sayfaya gittik
-        waitFor(3);
-        lmsLoginLink.click();//LMS e git
+        waitFor(5);
+        lmsLoginLink.click();//LMS e git. org.openqa.selenium.StaleElementReferenceException:
+        /*
+        lmsLoginLink linkini sayfa yenilendikden(back()) sonra kullandigim icin StaleElementReferenceException aldim
+         */
     }
 
     @Test
-    public void staleElementReferenceExceptionTest2(){
+    public void staleElementReferenceExceptionTest2() {
         driver.get("https://www.techproeducation.com");
         waitFor(5);
         WebElement lmsLoginLink = driver.findElement(By.linkText("LMS LOGIN"));
         waitFor(5);
         driver.navigate().refresh();
         waitFor(5);
-        lmsLoginLink.click();// SAYFA YENILENMEDEN ONCE BULDUGUM ELEMENTI, SAYFA YENILENDIKDEN SONRA KULLANMAK ISTEDIM
+//        SAYFA YENILENMEDEN ONCE BULDUGUM ELEMENTI, SAYFA YENILENDIKDEN SONRA KULLANMAK ISTEDIM
+        lmsLoginLink.click();// org.openqa.selenium.StaleElementReferenceException
+
+
+//        COZUM ESKI(SLATE ELEMENT) ELEMENTI TEKRAR LOCATE ET
+//        driver.findElement(By.linkText("LMS LOGIN")).click();
+
+
     }
-
-
-
-
 }

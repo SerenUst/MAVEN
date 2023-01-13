@@ -3,9 +3,9 @@ package practice02;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WindowType;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class WindowHandle extends testBase {
+public class WindowHandle extends TestBase {
 
    @Test
    public void test01(){

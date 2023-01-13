@@ -3,9 +3,9 @@ package day_07;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class C02_AlertsAccept extends testBase {
+public class C02_AlertsAccept extends TestBase {
 
 
 

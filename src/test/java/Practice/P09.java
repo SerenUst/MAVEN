@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import utilities.testBase;
+import utilities.TestBase;
 
-public class P09 extends testBase {
+public class P09 extends TestBase {
 
 @Test
     public void test() throws InterruptedException {

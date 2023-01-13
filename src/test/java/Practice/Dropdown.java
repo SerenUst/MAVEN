@@ -4,11 +4,11 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import utilities.testBase;
+import utilities.TestBase;
 
 import java.util.List;
 
-public class Dropdown extends testBase {
+public class Dropdown extends TestBase {
 
 
 @Test
