@@ -5,7 +5,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import utilities.TestBase;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 public class C01_ExtentReports2 {
